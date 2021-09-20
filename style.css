@@ -51,18 +51,25 @@ header h2::after {
     transition: .9s;
 }
 .cards h1 {
-    margin-bottom: 80px;
+    margin-bottom: 5px;
     position: relative;
     transition: .9s;
 }
-.cards h1::after{
+
+.cards span{
+    margin-bottom: 60px;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+}
+.cards span::after{
     content: "";
-    width: 200px;
+    width: 265%;
     height: 1px;
     background-color: #ddd;
     position: absolute;
-    top: 209%;
-    left: 20%;
+    top: 65px;
+    left: -60px;
 }
 .cards p {
     font-size: 20px;
